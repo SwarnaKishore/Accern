@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Home - Accern</title>
+
+  <!-- CSS  -->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
+  <link async href="http://fonts.googleapis.com/css?family=Berkshire%20Swash" rel="stylesheet" type="text/css"/>
+  <link async href="http://fonts.googleapis.com/css?family=Bad%20Script" rel="stylesheet" type="text/css"/>
+  <link async href="http://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet" type="text/css"/>
+  
+</head>
+<body>
+<div id="navbar">
+  <nav>
+    <div class="nav-wrapper container">
+    	<div class="container"> <a href="index.html" class="brand-logo mLogo" style="margin-top: 15px;"><img src="images/accernlogosquare-4.png" width="130" height="80" style="margin-top:-15px;"></a></div>
+     
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+       
+		 <li><a href="#">Home</a></li>
+        	<li><a href="company.html">Company</a></li>
+
+           <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Login</a></li>
+       
+      </ul>
+      <ul class="right side-nav" id="mobile-demo">
+      		<li><a href="index.html">Home</a></li>
+          <li><a href="company.html">Company</a></li>
+           <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div>
+        
+        <div class="container" style="margin-top:180px;">
+              <p> We’re Here for You</p>
+              <h3 class="titleFont">Contact us any time</h3>
+            
+                  <p>Contact us any time</p>
+                 <p> 110 Wall Street, New York, NY 10005</p>
+                  <p>info@accern.com</p>
+              <br>
+            
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/Contact.jpg" alt="Unsplashed background img 2" height="100%"></div>
+  </div>
+
+
+
+
+
+
+<!--contact section-->
+ <div class="section scrollspy" id="contactus">
+  <div>
+    <br>
+  <br>
+  <h3 class="center contactUs">Contact Us Anytime</h3>  
+  <p class="center">Contact us for documentation and pricing. We will respond within 3 hours.</p>
+   <div class="row">
+    
+  <form class="col s8 offset-s2">
+  
+    <div class="row">
+      <div class="input-field col s12 m4">
+        <input id="name" type="text" class="validate">
+        <label for="name">Name</label>
+      </div>
+   
+    
+      <div class="input-field col s12 m4">
+        <input id="email" type="email" class="validate">
+        <label for="email">Email</label>
+      </div>
+    
+      <div class="input-field col s12 m4">
+        <input id="message-sub" type="email" class="validate">
+        <label for="message-sub">Subject</label>
+      </div>
+    </div><!--row-->
+    
+     <div class="row">
+      <div class="input-field col s12">
+         <textarea id="text_area" class="materialize-textarea"></textarea>
+        <label for="text_area">Message</label>
+      </div>
+    </div>
+    
+     
+      <div class="center">
+        <a class="waves-effect waves-light btn" style="text-transform: capitalize;border-radius:30px; margin-top:30px; background-color: rgb(242, 78, 78);padding-left:40px;padding-right:40px;">Send</a>
+      </div>
+     </form>
+     
+     
+     
+     
+</div>
+  </div>
+</div>
+ 
+      
+
+
+
+  <footer class="page-footer" style="background-color: black">
+   
+    <div class="footer-copyright">
+      <div class="row">
+          <div class="col s6 offset-s2 m6 offset-m2">
+           <a href="index.html" class="brand-logo mLogo" style="margin-top: 15px;"><img src="images/accernlogosquare-4.png" width="100" height="50" style="margin-bottom:15px;"></a>
+          </div>
+           <div class="col s4 m4">
+           <p>Copyright 2017 ACCERN CORPORATION</p>
+          </div>
+       
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" script-name="arizonia" src="http://use.edgefonts.net/arizonia.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+      $('.button-collapse').sideNav();
+       $('.parallax').parallax();
+
+  });
+  </script>
+  <script>
+  	    $('.head-link').click(function(e) {
+        e.preventDefault();
+        
+        var goto = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(goto).offset().top
+        }, 800);
+    });
+
+  </script>
+
+
+
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+    } 
+  }
+}
+</script>
+
+	
+	
+	
+	
+  </body>
+</html>

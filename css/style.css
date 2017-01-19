@@ -149,7 +149,7 @@ nav li a {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   border: none;
-  font: normal 50px/1, Helvetica, sans-serif;
+  font: normal 20px/1, Helvetica, sans-serif;
   
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
