@@ -2,6 +2,20 @@ nav ul a,
 nav .brand-logo {
   color: white;
 }
+.requestAPIStyle{
+  text-transform: capitalize;
+  border-radius:30px;
+  border-style: solid;
+  border-color: white;
+  background-color: black
+}
+.requestAPIStyle:hover{
+ background-color: white;
+ color:black;
+}
+.material-icons{
+  color: white;
+}
 
 body{
   background-color: black;
