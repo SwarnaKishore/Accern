@@ -3,11 +3,15 @@ nav .brand-logo {
   color: white;
 }
 
+body{
+  background-color: black;
+}
+
 .iconSection{
   background-color: black;
   color:white;
   border-top: :none;
-  padding-top: 60px;
+  
 }
 .iconSection .section{
 
