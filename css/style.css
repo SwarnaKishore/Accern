@@ -2,6 +2,13 @@ nav ul a,
 nav .brand-logo {
   color: white;
 }
+.heading{
+  font-family: 'Bitter', serif;
+}
+.smallText
+{
+font-family: 'Hind', sans-serif;
+}
 .requestAPIStyle{
   text-transform: capitalize;
   border-radius:30px;
