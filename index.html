@@ -9,6 +9,7 @@
        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
   <link async href="http://fonts.googleapis.com/css?family=Berkshire%20Swash" rel="stylesheet" type="text/css"/>
   <link async href="http://fonts.googleapis.com/css?family=Bad%20Script" rel="stylesheet" type="text/css"/>
@@ -94,26 +95,31 @@
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m3">
+        <div class="wow bounceIn animated animated" style="visibility: visible; animation-name: bounceIn;">
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">News Coverage</h5>
 
             <p class="light">We currently have the largest finance news coverage in the world by monitoring 300 million news websites, blogs, and social media feeds such as Twitter.</p>
           </div>
+          </div>
         </div>
 
 
           <div class="col s12 m3">
+          <div style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;" class="wow bounceIn animated" data-wow-offset="0" data-wow-delay="0.4s">
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Low-Latency</h5>
 
             <p class="light">In a few milliseconds, Accern captures articles as soon as they are published online and derives trading analytics to be delivered to customers.</p>
           </div>
+          </div>
         </div>
 
 
         <div class="col s12 m3">
+        <div style="visibility: visible; animation-delay: 1s; animation-name: bounceIn;" class="wow bounceIn animated animated" data-wow-offset="0" data-wow-delay="1.0s">
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">group</i></h2>
             <h5 class="center">News Quality</h5>
@@ -121,8 +127,12 @@
             <p class="light">We provide news that are relevant to U.S. public equities 99% of the time, using our proprietary algorithms built solely to tackle data quality issues.</p>
           </div>
         </div>
+        </div>
+
+
 
         <div class="col s12 m3">
+        <div style="visibility: visible; animation-delay: 1.6s; animation-name: bounceIn;" class="wow bounceIn animated animated" data-wow-offset="0" data-wow-delay="1.6s">
           <div class="icon-block">
             <h2 class="center"><i class="material-icons">settings</i></h2>
             <h5 class="center">Affordable</h5>
@@ -130,7 +140,10 @@
             <p class="light">We save customers time and energy, and cut more than 50% in news data costs by helping them integrate any type of news sources they need. </p>
           </div>
         </div>
+        </div>
+
       </div>
+
 
     </div><!--section-->
     </div>
@@ -271,7 +284,7 @@
 
 
      <div class="fixed-action-btn toolbar">
-    <a href="#navbar" class="btn-floating btn-large head-link" style="background-color:#d0d0d0";color:black;>
+    <a href="#navbar" class="btn-floating btn-large head-link" style="background-color:#d0d0d0; color:black;">
       <i class="large material-icons">navigation</i>
     </a>
     </div> 
@@ -321,6 +334,17 @@
     });
 
   </script>
+
+
+
+
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+
+
 
 
 
